@@ -53,7 +53,17 @@ export default function Footer() {
               <p>
                 © 2025-Present HyperFocused Holdings, LLC. All rights reserved.
               </p>
-              <p>Developed by Gaussjordan</p>
+              <p>
+                Developed by{" "}
+                <a
+                  href="https://gaussjordan.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline"
+                >
+                  Gaussjordan
+                </a>
+              </p>
             </div>
           </div>
         </div>
