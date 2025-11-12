@@ -5,6 +5,7 @@ import Image from "next/image";
 import { VisionSvg, VentureSvg } from "../../../helpers/icons";
 import TitleCard from "@/components/TitleCard";
 import Section from "@/components/ui/section";
+import LazyVideo from "@/components/LazyVideo";
 
 export const metadata = {
   title: "About | Hyperfocused Holdings",
@@ -86,8 +87,8 @@ export default function AboutPage() {
         <div className="grid-system mt-6">
           <div className="col-span-full md:col-start-2 md:col-end-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
-              { label: "AUM", value: "$120M" },
-              { label: "Platforms / Add-ons", value: "12 / 34" },
+              { label: "AUM", value: "$10M" },
+              { label: "Platforms / Add-ons", value: "2 / 4" },
               { label: "Net IRR (Fund I)", value: "19.4%" },
               { label: "TVPI (Fund I)", value: "1.90×" },
             ].map((s, i) => (
@@ -168,6 +169,85 @@ export default function AboutPage() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </Section>
+
+      {/* Meet The Founder Section */}
+      <Section bgClass="bg-white" noTop>
+        <div className="grid-system">
+          <div className="col-span-full md:col-start-2 md:col-span-4">
+            <h2 className="text-3xl md:text-5xl lg:text-[64px] text-c-black mb-12 font-semibold">
+              Meet The Founder
+            </h2>
+
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 bg-white rounded-xl">
+              <div className="space-y-8 flex flex-col ">
+                <Image
+                  src="/farmcharles.jpg"
+                  alt="Charles Chow with family on the ranch"
+                  width={500}
+                  height={500}
+                  className="w-full lg:max-w-sm aspect-square object-cover rounded-lg mx-auto lg:mx-0"
+                />
+                <div>
+                  <h3 className="text-2xl md:text-3xl text-c-black font-semibold">
+                    Charles Chow (middle)
+                  </h3>
+                  <p className="text-base md:text-lg text-[rgba(11,11,11,0.6)]">
+                    Founder & CEO
+                  </p>
+                </div>
+                <p className="text-lg md:text-3xl text-c-black max-w-[35ch]">
+                  Leading HyperFocused Holdings with a unique blend of technical
+                  excellence, operational execution, and entrepreneurial vision.
+                </p>
+                <div className="mt-auto">
+                  <div className="flex gap-2 items-center mb-3">
+                    <VentureSvg className="w-auto h-3" />
+                    <p className="text-xs  text-c-orange text-nowrap">
+                      Business Acquisitions
+                    </p>
+                  </div>
+                  <div className="flex flex-wrap gap-4">
+                    {[
+                      "Visionary thinking",
+                      "Tech automation",
+                      "Brand development",
+                      "Deal analysis",
+                    ].map((strength, i) => (
+                      <div key={i} className="flex items-center gap-2 w-fit">
+                        <div className="bg-c-black size-2.5" />
+                        <span className="text-sm text-c-black">{strength}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              <div className="space-y-6 flex flex-col ">
+                <LazyVideo />
+                <div className="mt-auto">
+                  <p className="text-base md:text-lg text-c-black text-right mb-4 font-medium">
+                    Background & Achievements
+                  </p>
+                  <div className="space-y-3">
+                    {[
+                      "Raised on a Rural Ranch",
+                      "Ex-Software Engineer at Uber",
+                      "DIV I NCAA scholarship Student-Athlete",
+                    ].map((item, i) => (
+                      <div
+                        key={i}
+                        className="text-right text-xl md:text-2xl text-[rgba(11,11,11,0.6)] pb-3 border-b border-[rgba(11,11,11,0.6)]"
+                      >
+                        {item}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </Section>

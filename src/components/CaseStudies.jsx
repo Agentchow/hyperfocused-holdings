@@ -5,6 +5,19 @@ import ExpandableGrid from "./ui/expandable-grid";
 export default function CaseStudies() {
   const items = [
     {
+      title: "CRM Automation",
+      metric: "25% time reduction, 1% revenue share + equity",
+      time: "6 months",
+      blurb: "CRM optimization and AI-powered customer funnel automation.",
+      details: [
+        "Optimized CRM workflows and systemized customer funnel processes",
+        "Reduced admin work by 25% (10 hours/week) through automation",
+        "Integrated AI receptionist for quoting, booking, and general inquiries",
+        "Deployed AI sales bot for handling sales, upselling, and intelligent escalation",
+        "Compensation: Partial equity stake + 1% profit share on all sales",
+      ],
+    },
+    {
       title: "Industrial Roll‑Up",
       metric: "2.0× MOIC, +22% EBITDA",
       time: "24 months",

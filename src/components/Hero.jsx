@@ -55,11 +55,11 @@ export default function Hero() {
             Holdings
           </h1>
           <h2 className="text-center mt-4 md:mt-6 md:text-2xl max-w-xs mx-auto lg:max-w-full">
-            Hyper-Focused Execution. Multi-Dimensional Growth.
+            Focused Execution. Hyper Growth.
           </h2>
           <div className="grid-system mt-12">
             <p className="md:col-start-2 md:col-end-5 xl:col-end-4 col-span-full md:text-lg lg:text-2xl 2xl:text-3xl max-w-[40ch] mr-auto md:mt-16">
-              Acquiring, building, and scaling founder-led, succession‑ready businesses in the US and Canada.
+              Acquiring, building, and scaling founder-led, succession‑ready businesses in the across all continents.
               Targeting $250K–$2M EBITDA with AI-driven value creation.
             </p>
           </div>

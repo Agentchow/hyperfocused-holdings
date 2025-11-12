@@ -5,12 +5,12 @@ import { motion } from "motion/react";
 
 export default function Metrics() {
   const metrics = [
-    { value: "$120M", label: "Assets Under Management (AUM)" },
+    { value: "$1.7M", label: "Assets Under Management (AUM)" },
     { value: "19.4%", label: "Net IRR (Fund I)" },
     { value: "1.90×", label: "TVPI (Fund I)" },
     { value: "1.20×", label: "DPI (Fund I)" },
-    { value: "12 / 34", label: "Platforms / Add‑ons" },
-    { value: "8", label: "Exits" },
+    { value: "2 / 4", label: "Platforms / Add‑ons" },
+    { value: "1", label: "Exits" },
     { value: "38%", label: "Average portfolio EBITDA margin" },
     { value: "3.1×", label: "Average acquisition multiple" },
     {

@@ -225,7 +225,7 @@ export default function Divisons() {
             </p>
           </div>
           <p className="mt-1 text-2xl text-white/50 lg:max-w-[30ch]">
-            Ambitious young men aged 18–30 in tech and business
+            Ambitious young adults 18–30 in tech and business
           </p>
         </div>
         {/* TABLE */}
