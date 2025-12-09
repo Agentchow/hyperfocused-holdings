@@ -9,9 +9,9 @@ const menuItems = [
 ];
 
 const socialItems = [
-  { label: "Twitter", link: "https://twitter.com" },
-  { label: "GitHub", link: "https://github.com" },
-  { label: "LinkedIn", link: "https://linkedin.com" },
+  { label: "LinkedIn", link: "https://www.linkedin.com/in/charles-chow1/" },
+  { label: "YouTube", link: "https://www.youtube.com/@Charles_Chow" },
+  { label: "Discord", link: "https://discord.gg/GWBVfTh8" },
 ];
 export default function Nav() {
   return (

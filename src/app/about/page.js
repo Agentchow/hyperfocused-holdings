@@ -8,7 +8,7 @@ import Section from "@/components/ui/section";
 import LazyVideo from "@/components/LazyVideo";
 
 export const metadata = {
-  title: "About | Hyperfocused Holdings",
+  title: "About | HyperFocused Holdings",
   description: "Learn about HyperFocused Holdings and our mission to build the future of private holdings.",
 };
 
@@ -69,7 +69,7 @@ export default function AboutPage() {
             <p className="mt-6 md:text-xl lg:text-2xl 2xl:text-3xl text-c-black/60 max-w-[40ch]">
               Building the next generation holding company through hyper-focused execution and AI-driven innovation.
             </p>
-            <Button className="mt-12">View Business Plan</Button>
+            {/* <Button className="mt-12">View Business Plan</Button> */}
           </div>
         </div>
       </section>
@@ -233,7 +233,7 @@ export default function AboutPage() {
                   </p>
                   <div className="space-y-3">
                     {[
-                      "Raised on a Rural Ranch",
+                      "Raised on a Rural Ranch in NC",
                       "Ex-Software Engineer at Uber",
                       "DIV I NCAA scholarship Student-Athlete",
                     ].map((item, i) => (

@@ -7,7 +7,7 @@ import Section from "@/components/ui/section";
 import CaseStudies from "@/components/CaseStudies";
 
 export const metadata = {
-  title: "Services | Hyperfocused Holdings",
+  title: "Services | HyperFocused Holdings",
   description: "Discover our comprehensive suite of business acquisition, development, and scaling services.",
 };
 
@@ -125,7 +125,7 @@ export default function ServicesPage() {
             <p className="mt-6 md:text-xl lg:text-2xl 2xl:text-3xl text-c-black/60 max-w-[40ch]">
               Comprehensive solutions for acquiring, building, and scaling high-margin businesses.
             </p>
-            <Button className="mt-12">Schedule a Consultation</Button>
+            {/* <Button className="mt-12">Schedule a Consultation</Button> */}
           </div>
         </div>
       </section>

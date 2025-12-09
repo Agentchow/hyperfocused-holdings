@@ -9,11 +9,11 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Hyperfocused",
+  title: "HyperFocused",
   description:
     "Acquiring, building, and scaling high-margin digital and physical businesses where AI innovation handles traditional inefficiency.",
   openGraph: {
-    title: "Hyperfocused",
+    title: "HyperFocused",
     description:
       "Acquiring, building, and scaling high-margin digital and physical businesses where AI innovation handles traditional inefficiency.",
     url: "https://www.hyperfocusedholdings.com/",
@@ -30,7 +30,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hyperfocused",
+    title: "HyperFocused",
     description:
       "Acquiring, building, and scaling high-margin digital and physical businesses where AI innovation handles traditional inefficiency.",
     images: ["/hflogo.webp"],

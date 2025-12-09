@@ -34,9 +34,9 @@ export default function Footer() {
                   <p className="text-base text-[#0b0b0b]">Follow</p>
                 </div>
                 <div className="space-y-2 text-sm text-[rgba(11,11,11,0.6)]">
-                  <p>Youtube</p>
-                  <p>LinkedIn</p>
-                  <p>Instagram</p>
+                  <p><a href="https://www.youtube.com/@Charles_Chow" target="_blank" rel="noopener noreferrer" className="hover:underline">Youtube</a></p>
+                  <p><a href="https://discord.gg/GWBVfTh8" target="_blank" rel="noopener noreferrer" className="hover:underline">Discord</a></p>
+                  <p><a href="https://www.linkedin.com/in/charles-chow1/" target="_blank" rel="noopener noreferrer" className="hover:underline">LinkedIn</a></p>
                 </div>
               </div>
               <div>
