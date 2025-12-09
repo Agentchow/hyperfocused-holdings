@@ -20,7 +20,7 @@ export default function Nav() {
         href="/"
         className="md:text-xl font-semibold fixed  top-[28px] md:top-[32px] left-[16px] md:left-[32px] text-white mix-blend-difference z-50"
       >
-        Hyperfocused
+        HyperFocused
       </Link>
       <Menu
         className=""
