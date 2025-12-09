@@ -36,7 +36,13 @@ export const metadata = {
     images: ["/hflogo.webp"],
   },
   icons: {
-    icon: "/hflogo.webp",
+    icon: [
+      { url: "/hflogo.webp", sizes: "any" },
+      { url: "/hflogo.webp", type: "image/webp", sizes: "32x32" },
+      { url: "/hflogo.webp", type: "image/webp", sizes: "16x16" },
+    ],
+    apple: "/hflogo.webp",
+    shortcut: "/hflogo.webp",
   },
 };
 export const dynamic = "force-static";
