@@ -100,7 +100,7 @@ export default function AboutPage() {
           </div>
           <div className="col-span-full md:col-start-2 md:col-end-6 mt-3">
             <p className="text-xs text-white/40">
-              Past performance is not indicative of future results. Metrics shown are illustrative mock values.
+              Past performance is not indicative of future results.
             </p>
           </div>
         </div>

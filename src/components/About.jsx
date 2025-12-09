@@ -23,7 +23,7 @@ export default function About() {
     {
       title: "New Private Equity",
       description:
-        "Become the 'New Age Berkshire Hathaway' for modern entrepreneurs.",
+        "Become a cutting edge firm that blends technology and traditional private equity.",
     },
   ];
   return (

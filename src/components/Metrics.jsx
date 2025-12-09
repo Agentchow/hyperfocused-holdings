@@ -88,7 +88,7 @@ export default function Metrics() {
             ))}
           </motion.div>
           <p className="text-xs text-c-black/40 mt-4">
-            Past performance is not indicative of future results. Metrics shown are illustrative mock values.
+            Past performance is not indicative of future results.
           </p>
         </div>
       </section>
