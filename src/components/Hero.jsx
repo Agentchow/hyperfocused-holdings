@@ -49,7 +49,7 @@ export default function Hero() {
       <section className="flex-1 flex flex-col ">
         <div className="grow flex flex-col items-center justify-center">
           <h1 className="text-c-black text-5xl  md:text-6xl lg:text-8xl  text-center mx-auto font-medium">
-            Hyperfocused
+            HyperFocused
           </h1>
           <h1 className="text-c-black text-5xl  md:text-6xl lg:text-8xl  text-center mx-auto font-medium">
             Holdings
