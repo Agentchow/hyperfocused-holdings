@@ -204,7 +204,7 @@ export default function Divisons() {
     {
       title: "HyperFocused Media",
       description:
-        "Brand and community ecosystem built around modern entrepreneurs and ADHD-driven achievement",
+        "Brand and community ecosystem built around modern entrepreneurs and high-performance achievement",
       Icon: <MediaSvg />,
       content: (
         <section className="w-full">

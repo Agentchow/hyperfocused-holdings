@@ -33,7 +33,7 @@ export default function Home() {
         className={`2xl:text-[64px] text-4xl md:text-5xl lg:text-6xl font-semibold text-center text-white/60 bg-c-black  flex items-center justify-center flex-col`}
       >
         <h1 className="mt-32">Current Partners</h1>
-        <div className="flex mt-6 mb-8 md:my-12 md:mb-16 gap-6 mx-auto z-10 items-center">
+        <div className="flex mt-6 mb-20 md:my-12 md:mb-32 gap-6 md:gap-10 mx-auto z-10 items-center">
           {range(2).map((i) => {
             const num = i + 1;
             return (
@@ -47,17 +47,13 @@ export default function Home() {
               />
             );
           })}
-        </div>
-        <div className="flex flex-col items-center mb-20 md:mb-32">
-          <div className="flex items-center gap-3 bg-[#111111] rounded-2xl px-8 py-5 border border-white/10">
-            <div className="flex flex-col items-center">
-              <p className="text-2xl md:text-3xl font-bold text-c-orange tracking-tight">KALSHI</p>
-              <p className="text-xs md:text-sm text-white/40 font-normal mt-1">Institutional Market Maker Partner</p>
-            </div>
-          </div>
-          <p className="text-sm md:text-base text-white/30 font-normal mt-4 max-w-md text-center">
-            CFTC-regulated prediction exchange &bull; $22B valuation &bull; 89% U.S. market share
-          </p>
+          <Image
+            src="/kalshi.svg"
+            alt="Kalshi logo"
+            width={160}
+            height={40}
+            className="h-full max-w-24 md:max-w-36"
+          />
         </div>
       </div>
       <div className="bg-black">
