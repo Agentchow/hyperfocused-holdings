@@ -7,11 +7,18 @@ import CaseStudies from "@/components/CaseStudies";
 export const metadata = {
   title: "Case Studies | HyperFocused Holdings",
   description:
-    "Selected snapshots of value creation initiatives across sectors and strategies.",
+    "Selected snapshots of value creation across private equity, institutional market making on Kalshi, and operational optimization.",
 };
 
 export default function CaseStudiesPage() {
   const studies = [
+    {
+      slug: "kalshi-market-making",
+      title: "Kalshi Market Making",
+      metric: "Institutional liquidity provider",
+      time: "Ongoing",
+      blurb: "Algorithmic market making on the CFTC-regulated prediction exchange with $178B annualized volume.",
+    },
     {
       slug: "industrial-roll-up",
       title: "Industrial Roll‑Up",
@@ -45,7 +52,7 @@ export default function CaseStudiesPage() {
               Case Studies
             </h1>
             <p className="mt-6 md:text-xl lg:text-2xl 2xl:text-3xl text-c-black/60 max-w-[45ch]">
-              Practical, operator‑led value creation—from industrial services to software.
+              Practical, operator‑led value creation—from industrial services and software to institutional market making.
             </p>
           </div>
         </div>

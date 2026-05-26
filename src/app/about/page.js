@@ -9,7 +9,7 @@ import LazyVideo from "@/components/LazyVideo";
 
 export const metadata = {
   title: "About | HyperFocused Holdings",
-  description: "Learn about HyperFocused Holdings and our mission to build the future of private holdings.",
+  description: "Learn about HyperFocused Holdings — private equity, institutional market making on Kalshi, and AI-driven business scaling.",
 };
 
 export default function AboutPage() {
@@ -30,28 +30,33 @@ export default function AboutPage() {
       description: "Expanding operations across 5 key sectors with focus on AI-driven optimization.",
     },
     {
+      year: "2026",
+      title: "Trading Division & Kalshi Partnership",
+      description: "Launched HFT market making division as institutional market maker on Kalshi — the CFTC-regulated exchange valued at $22B with $178B annualized volume and 89% U.S. market share.",
+    },
+    {
       year: "2027",
       title: "Target Achievement",
-      description: "Targeting $7M+ portfolio value with 45% net margin across all divisions.",
+      description: "Targeting $7M+ portfolio value with 45% net margin across all divisions including trading revenue.",
     },
   ];
 
   const values = [
     {
       title: "Innovation First",
-      description: "We leverage cutting-edge AI and automation to eliminate inefficiencies and maximize value.",
+      description: "We leverage cutting-edge AI, algorithmic trading, and automation to eliminate inefficiencies and maximize value.",
     },
     {
-      title: "Hyper-Focused Execution",
-      description: "Our concentrated approach ensures excellence in every business we acquire and build.",
+      title: "Quantitative Edge",
+      description: "Proprietary pricing models and low-latency infrastructure power our institutional market making on the fastest-growing exchange in finance.",
     },
     {
       title: "Multi-Dimensional Growth",
-      description: "Diversified portfolio across digital, automotive, software, service, and real estate sectors.",
+      description: "Diversified portfolio across digital, automotive, software, service, real estate, and prediction market sectors.",
     },
     {
       title: "Community-Driven",
-      description: "Building a thriving community of entrepreneurs, investors, and innovators.",
+      description: "Building a thriving community of entrepreneurs, traders, investors, and innovators.",
     },
   ];
 
@@ -88,9 +93,9 @@ export default function AboutPage() {
           <div className="col-span-full md:col-start-2 md:col-end-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
               { label: "AUM", value: "$10M" },
-              { label: "Platforms / Add-ons", value: "2 / 4" },
+              { label: "Core Divisions", value: "4" },
               { label: "Net IRR (Fund I)", value: "19.4%" },
-              { label: "TVPI (Fund I)", value: "1.90×" },
+              { label: "Kalshi Market Share", value: "89%" },
             ].map((s, i) => (
               <div key={i} className="rounded-2xl border border-white/10 bg-[#0f0f0f] p-6">
                 <div className="text-2xl md:text-4xl text-white font-semibold">{s.value}</div>
@@ -113,8 +118,8 @@ export default function AboutPage() {
               </p>
             </div>
             <p className="text-2xl lg:text-3xl 2xl:text-4xl text-white/80 max-w-[55ch] leading-relaxed">
-              We acquire, build, and scale high-margin businesses where AI innovation replaces traditional inefficiency. 
-              Our goal is to generate unprecedented value across multiple sectors through systematic execution.
+              We acquire, build, and scale high-margin businesses while operating as institutional market makers on Kalshi. 
+              AI innovation, algorithmic trading, and systematic execution converge to generate value across every sector we touch.
             </p>
           </div>
         </div>
@@ -212,8 +217,8 @@ export default function AboutPage() {
                   <div className="flex flex-wrap gap-4">
                     {[
                       "Visionary thinking",
+                      "Algorithmic trading",
                       "Tech automation",
-                      "Brand development",
                       "Deal analysis",
                     ].map((strength, i) => (
                       <div key={i} className="flex items-center gap-2 w-fit">

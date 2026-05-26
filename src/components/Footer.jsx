@@ -13,9 +13,10 @@ export default function Footer() {
                   <p className="text-base text-[#0b0b0b]">Divisions</p>
                 </div>
                 <div className="space-y-2 text-sm text-[rgba(11,11,11,0.6)]">
-                  <p>HyperFocused Ventures</p>
-                  <p>HyperFocused Media</p>
                   <p>HyperFocused Capital</p>
+                  <p>HyperFocused Trading</p>
+                  <p>HyperFocused Media</p>
+                  <p>HyperFocused Ventures</p>
                 </div>
               </div>
               <div>

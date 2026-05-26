@@ -6,9 +6,9 @@ import Button from "./Button";
 export default function About() {
   const divisionsOverview = [
     {
-      title: "5 Sector Presence",
+      title: "6 Sector Presence",
       description:
-        "Holdings across digital, automotive, software, service, and real estate.",
+        "Holdings across digital, automotive, software, service, real estate, and prediction markets.",
     },
     {
       title: "$100M+ Portfolio",
@@ -16,14 +16,14 @@ export default function About() {
         "Build a diversified portfolio exceeding $100M in total value.",
     },
     {
-      title: "Automated Systems",
+      title: "Institutional Trading",
       description:
-        "Fully automated community-driven capital flow infrastructure.",
+        "Market making operations on Kalshi powering liquidity in the fastest-growing asset class in finance.",
     },
     {
       title: "New Private Equity",
       description:
-        "Become a cutting edge firm that blends technology and traditional private equity.",
+        "A cutting edge firm that blends HFT, AI, and traditional private equity into one holding company.",
     },
   ];
   return (

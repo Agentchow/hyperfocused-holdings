@@ -27,6 +27,10 @@ export default function Metrics() {
       label: "Average diligence-to-close timeline per deal",
     },
     { value: "90%+", label: "Client retention rate in operating companies" },
+    { value: "$178B", label: "Kalshi annualized platform volume (2026)" },
+    { value: "89%", label: "Kalshi U.S. prediction market share" },
+    { value: "1,100%", label: "Kalshi YoY volume growth (2025)" },
+    { value: "800%", label: "Institutional volume growth on Kalshi (6 mo)" },
   ];
 
   const containerVariants = {

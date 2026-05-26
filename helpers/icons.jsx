@@ -159,6 +159,45 @@ export const VentureSvg = (props) => (
   </svg>
 );
 
+export const TradingSvg = (props) => (
+  <svg
+    {...props}
+    xmlns="http://www.w3.org/2000/svg"
+    width="283"
+    height="283"
+    fill="none"
+    viewBox="0 0 283 283"
+  >
+    <path
+      fill="#FF4500"
+      fillOpacity="0.6"
+      d="M30 220h20v-60h-20zm30 0h20v-100h-20zm30 0h20v-80h-20zm30 0h20v-130h-20zm30 0h20v-110h-20zm30 0h20v-150h-20zm30 0h20v-120h-20z"
+    />
+    <path
+      stroke="#FF4500"
+      strokeOpacity="0.8"
+      strokeWidth="3"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      fill="none"
+      d="M30 175 l30 -25 l30 10 l30 -50 l30 -15 l30 -30 l30 15"
+    />
+    <circle cx="30" cy="175" r="4" fill="#FF4500" fillOpacity="0.9" />
+    <circle cx="60" cy="150" r="4" fill="#FF4500" fillOpacity="0.9" />
+    <circle cx="90" cy="160" r="4" fill="#FF4500" fillOpacity="0.9" />
+    <circle cx="120" cy="110" r="4" fill="#FF4500" fillOpacity="0.9" />
+    <circle cx="150" cy="95" r="4" fill="#FF4500" fillOpacity="0.9" />
+    <circle cx="180" cy="65" r="4" fill="#FF4500" fillOpacity="0.9" />
+    <circle cx="210" cy="80" r="4" fill="#FF4500" fillOpacity="0.9" />
+    <path
+      stroke="#FF4500"
+      strokeOpacity="0.3"
+      strokeWidth="1"
+      d="M30 220h190M30 180h190M30 140h190M30 100h190M30 60h190"
+    />
+  </svg>
+);
+
 export const VentureSvg2 = (props) => (
   <svg
     {...props}

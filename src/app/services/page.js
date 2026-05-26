@@ -8,7 +8,7 @@ import CaseStudies from "@/components/CaseStudies";
 
 export const metadata = {
   title: "Services | HyperFocused Holdings",
-  description: "Discover our comprehensive suite of business acquisition, development, and scaling services.",
+  description: "Business acquisition, institutional market making on Kalshi, AI optimization, and scaling services.",
 };
 
 export default function ServicesPage() {
@@ -66,6 +66,19 @@ export default function ServicesPage() {
       outcomes: "Demand generation, pricing power, higher close rates",
     },
     {
+      title: "Institutional Market Making",
+      description: "Algorithmic liquidity provision on Kalshi's CFTC-regulated prediction exchange across event contract categories.",
+      features: [
+        "Proprietary pricing models",
+        "Low-latency execution infrastructure",
+        "Real-time risk management",
+        "Cross-contract hedging",
+      ],
+      audience: "Institutional exchanges and prediction market platforms",
+      engagement: "Continuous automated quoting with 24/7 monitoring",
+      outcomes: "Consistent spread capture, deep liquidity provision, institutional-grade execution",
+    },
+    {
       title: "Capital Allocation",
       description: "Strategic capital deployment across portfolio companies to maximize returns and fuel sustainable expansion.",
       features: [
@@ -95,9 +108,14 @@ export default function ServicesPage() {
 
   const divisions = [
     {
-      name: "HyperFocused Ventures",
-      focus: "Digital & Tech Businesses",
-      description: "Acquiring and scaling high-margin SaaS, e-commerce, and digital service businesses.",
+      name: "HyperFocused Capital",
+      focus: "Investment & Advisory",
+      description: "Strategic investment and advisory services for emerging businesses and entrepreneurs.",
+    },
+    {
+      name: "HyperFocused Trading",
+      focus: "HFT & Market Making",
+      description: "Institutional market making on Kalshi's CFTC-regulated prediction exchange. Algorithmic liquidity provision across event contracts in macro, sports, crypto, and geopolitical markets.",
     },
     {
       name: "HyperFocused Media",
@@ -105,9 +123,9 @@ export default function ServicesPage() {
       description: "Building powerful media brands and content platforms that drive engagement and revenue.",
     },
     {
-      name: "HyperFocused Capital",
-      focus: "Investment & Advisory",
-      description: "Strategic investment and advisory services for emerging businesses and entrepreneurs.",
+      name: "HyperFocused Ventures",
+      focus: "Digital & Tech Businesses",
+      description: "Acquiring and scaling high-margin SaaS, e-commerce, and digital service businesses.",
     },
   ];
 
@@ -170,7 +188,7 @@ export default function ServicesPage() {
       {/* Divisions Section */}
       <Section bgClass="bg-c-black text-white rounded-t-3xl" noTop>
         <TitleCard
-          title="Three Core Divisions"
+          title="Four Core Divisions"
           titleClassName="text-white/60"
           description="Each division operates independently but synergizes through shared infrastructure."
           descriptionClassName="text-white/40"

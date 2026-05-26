@@ -11,28 +11,28 @@ const poppins = Poppins({
 export const metadata = {
   title: "HyperFocused",
   description:
-    "Acquiring, building, and scaling high-margin digital and physical businesses where AI innovation handles traditional inefficiency.",
+    "Private equity and institutional market making. Acquiring and scaling founder-led businesses. Kalshi market maker powering liquidity on the largest U.S. prediction exchange.",
   openGraph: {
-    title: "HyperFocused",
+    title: "HyperFocused Holdings",
     description:
-      "Acquiring, building, and scaling high-margin digital and physical businesses where AI innovation handles traditional inefficiency.",
+      "Private equity and institutional market making. Acquiring and scaling founder-led businesses. Kalshi market maker powering liquidity on the largest U.S. prediction exchange.",
     url: "https://www.hyperfocusedholdings.com/",
-    siteName: "GAUSSJORDAN",
+    siteName: "HyperFocused Holdings",
     images: [
       {
         url: "https://www.hyperfocusedholdings.com/hflogo.webp",
         width: 500,
         height: 500,
-        alt: "GAUSSJORDAN logo",
+        alt: "HyperFocused Holdings logo",
       },
     ],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "HyperFocused",
+    title: "HyperFocused Holdings",
     description:
-      "Acquiring, building, and scaling high-margin digital and physical businesses where AI innovation handles traditional inefficiency.",
+      "Private equity and institutional market making. Acquiring and scaling founder-led businesses. Kalshi market maker.",
     images: ["/hflogo.webp"],
   },
   icons: {

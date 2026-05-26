@@ -18,6 +18,19 @@ export default function CaseStudies() {
       ],
     },
     {
+      title: "Kalshi Market Making",
+      metric: "Institutional liquidity provider",
+      time: "Ongoing",
+      blurb: "Algorithmic market making on the CFTC-regulated prediction exchange with 89% U.S. market share.",
+      details: [
+        "Deployed proprietary pricing models across event contract categories (macro, sports, crypto, geopolitical)",
+        "Built low-latency execution infrastructure for continuous two-sided quoting",
+        "Real-time risk management and portfolio hedging across correlated contracts",
+        "Partnered alongside institutional firms like SIG, Jump Trading, and Clear Street on the platform",
+        "Kalshi platform has grown from $52B to $178B annualized volume in 6 months (2026)",
+      ],
+    },
+    {
       title: "Industrial Roll‑Up",
       metric: "2.0× MOIC, +22% EBITDA",
       time: "24 months",

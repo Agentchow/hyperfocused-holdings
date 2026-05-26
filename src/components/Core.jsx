@@ -5,17 +5,17 @@ export default function Core() {
   const sections = [
     {
       title: "Mission",
-      text: "Create enduring value by acquiring founder-led companies and compounding operational improvements through technology, talent, and disciplined capital allocation.",
+      text: "Create enduring value by acquiring founder-led companies, providing institutional liquidity on prediction markets, and compounding improvements through technology, talent, and disciplined capital allocation.",
       Icon: MissionSvg,
     },
     {
       title: "Vision",
-      text: "Be the most trusted partner to owners and investors by delivering consistent, risk-adjusted returns and building durable, people-first organizations.",
+      text: "Be the most trusted partner to owners, exchanges, and investors by delivering consistent, risk-adjusted returns across private equity and algorithmic trading.",
       Icon: VisionSvg,
     },
     {
       title: "Core Focus",
-      text: "Target $250K–$2M EBITDA, succession‑ready businesses in fragmented markets; deploy AI-driven operating systems to unlock margin expansion and growth.",
+      text: "Target $250K–$2M EBITDA, succession‑ready businesses in fragmented markets. Operate as institutional market maker on Kalshi. Deploy AI-driven systems to unlock margin expansion across every vertical.",
       Icon: CoreSvg,
     },
   ];
@@ -31,8 +31,8 @@ export default function Core() {
           <LazyVideo />
 
           <p className="md:text-xl lg:text-2xl 2xl:text-3xl max-w-[30ch] mr-auto lg:mr-0">
-            A new age private holding company bridging the gap between online
-            intellectual capital and real-world asset ownership.
+            A new age holding company bridging private equity, algorithmic
+            trading, and real-world asset ownership.
           </p>
         </div>
       </section>

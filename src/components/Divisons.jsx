@@ -7,6 +7,7 @@ import {
   VentureSvg2,
   MediaSvg,
   VentureSvg,
+  TradingSvg,
 } from "../../helpers/icons";
 import TagLine from "./TagLine";
 import { ForecastChart } from "./ForecastChart";
@@ -18,6 +19,12 @@ export default function Divisons() {
       division: "Capital",
       revenueStreams: "Equity appreciation, cash flow from acquisitions",
       targetMargin: "25–40% ROI",
+    },
+    {
+      division: "Trading",
+      revenueStreams:
+        "Market making spreads, event contract liquidity provision, proprietary trading",
+      targetMargin: "40–65%",
     },
     {
       division: "Media",
@@ -37,6 +44,11 @@ export default function Divisons() {
       title: "$10T+ Asset Transfer",
       description:
         "Mass retirement of small-business owners creating unprecedented acquisition opportunities by 2030.",
+    },
+    {
+      title: "Prediction Markets Explosion",
+      description:
+        "Kalshi's annualized trading volume surged from $52B to $178B in six months. The sector is projected to reach $9.2B in annual revenue by 2030 as institutional capital flows in.",
     },
     {
       title: "Gen Z Trades Boom",
@@ -110,6 +122,86 @@ export default function Divisons() {
       ),
     },
     {
+      title: "HyperFocused Trading",
+      description:
+        "Institutional market making and HFT operations on Kalshi — the CFTC-regulated prediction exchange commanding 89% of U.S. market share.",
+      Icon: <TradingSvg />,
+      content: (
+        <section className="w-full">
+          <h3 className="text-lg font-Regular text-white/80 mb-6">
+            HFT & Market Making
+            <span className="text-white/50"> (for Trading Division)</span>
+          </h3>
+
+          <div className="overflow-hidden rounded-xl border border-white/10 bg-[#111111]">
+            <table className="min-w-full border-collapse text-left text-white/70">
+              <tbody>
+                <tr className="border-b border-white/10">
+                  <td className="py-4 px-6 font-medium text-white/90 w-1/3">
+                    Exchange Partner
+                  </td>
+                  <td className="py-4 px-6">Kalshi (CFTC-regulated DCM)</td>
+                </tr>
+                <tr className="border-b border-white/10">
+                  <td className="py-4 px-6 font-medium text-white/90">
+                    Role
+                  </td>
+                  <td className="py-4 px-6">Institutional Market Maker</td>
+                </tr>
+                <tr className="border-b border-white/10">
+                  <td className="py-4 px-6 font-medium text-white/90">
+                    Strategy
+                  </td>
+                  <td className="py-4 px-6">
+                    Algorithmic liquidity provision across event contracts
+                  </td>
+                </tr>
+                <tr className="border-b border-white/10">
+                  <td className="py-4 px-6 font-medium text-white/90">
+                    Infrastructure
+                  </td>
+                  <td className="py-4 px-6">
+                    Low-latency execution, proprietary pricing models, real-time risk management
+                  </td>
+                </tr>
+                <tr>
+                  <td className="py-4 px-6 font-medium text-white/90">
+                    Markets
+                  </td>
+                  <td className="py-4 px-6">
+                    Economic indicators, macro events, sports, crypto, geopolitical outcomes
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3 className="text-lg font-Regular text-white/80 mt-8 mb-4">
+            Kalshi Platform Growth
+          </h3>
+          <div className="grid gap-4">
+            {[
+              { k: "Platform Valuation", v: "$22B (Series F, May 2026)" },
+              { k: "Annualized Volume", v: "$178B (3× growth in 6 months)" },
+              { k: "2025 Volume Growth", v: "1,100%+ YoY ($23.8B notional)" },
+              { k: "U.S. Market Share", v: "89% of regulated prediction market" },
+              { k: "Institutional Volume", v: "800% increase in 6 months" },
+              { k: "Revenue Run Rate", v: "$1.5B+ annualized (2026)" },
+            ].map((row, i) => (
+              <div key={i} className="flex items-center justify-between border-b border-white/10 py-3">
+                <p className="text-white/90">{row.k}</p>
+                <p className="text-white/60 text-right">{row.v}</p>
+              </div>
+            ))}
+          </div>
+
+          <p className="text-xs text-white/30 mt-6">
+            Sources: Markets Media, CoinDesk, Sacra, FinanceFeeds (May 2026). Kalshi raised $1B led by Coatue with Sequoia, a16z, Morgan Stanley, and ARK Invest participation.
+          </p>
+        </section>
+      ),
+    },
+    {
       title: "HyperFocused Media",
       description:
         "Brand and community ecosystem built around modern entrepreneurs and ADHD-driven achievement",
@@ -178,7 +270,7 @@ export default function Divisons() {
             tagline="MULTI-VERTICAL STRUCTURE"
           />
           <section className="grid-system">
-            <div className="col-span-full grid grid-cols-3 grid-rows-3 lg:grid-rows-1 2xl:col-start-2 2xl:col-end-6 gap-6 mt-24 mx-auto">
+            <div className="col-span-full grid grid-cols-4 grid-rows-4 lg:grid-rows-1 2xl:col-start-1 2xl:col-end-7 gap-6 mt-24 mx-auto">
               {divisons.map((division, i) => (
                 <Modal
                   key={i}
@@ -190,6 +282,8 @@ export default function Divisons() {
                       ? "lg:col-start-2 row-start-2 row-end-3 lg:row-auto"
                       : i == 2
                       ? "lg:col-start-3 row-start-3 row-end-4 lg:row-auto"
+                      : i == 3
+                      ? "lg:col-start-4 row-start-4 row-end-5 lg:row-auto"
                       : ""
                   }`}
                 ></Modal>
@@ -321,7 +415,7 @@ export default function Divisons() {
               margin: "40%",
               milestones: [
                 "Acquire first 1-2 small businesses",
-                "Expand AI SaaS offerings",
+                "Launch HFT trading desk on Kalshi",
                 "Scale content production",
               ],
             },
@@ -331,7 +425,7 @@ export default function Divisons() {
               margin: "45%",
               milestones: [
                 "Build full internal M&A team",
-                "Establish HQ fund",
+                "Scale market making operations",
                 "Multi-sector portfolio",
               ],
             },
