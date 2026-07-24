@@ -16,7 +16,7 @@ export default function Divisons() {
       division: "Market Making",
       revenueStreams:
         "Market-making spreads, exchange liquidity provision, and proprietary pricing",
-      targetMargin: "40–65%",
+      targetMargin: "8–12%",
     },
   ];
 
@@ -276,7 +276,7 @@ export default function Divisons() {
             {
               year: "2026",
               profit: "$1M",
-              margin: "40%",
+              margin: "8%",
               milestones: [
                 "Originate market-making operations on Kalshi",
                 "Integrate Polymarket infrastructure",
@@ -286,7 +286,7 @@ export default function Divisons() {
             {
               year: "2027",
               profit: "$2M",
-              margin: "99%",
+              margin: "12%",
               milestones: [
                 "Scale cross-exchange liquidity",
                 "Expand event-contract coverage",
