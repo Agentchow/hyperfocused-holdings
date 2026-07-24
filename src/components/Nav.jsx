@@ -6,7 +6,7 @@ const menuItems = [
   { label: "Home", ariaLabel: "Go to home page", link: "/" },
   { label: "About", ariaLabel: "Learn about us", link: "/about" },
   { label: "Services", ariaLabel: "View our exchange services", link: "/services" },
-  { label: "We're Hiring", ariaLabel: "View open roles", link: "/careers" },
+  { label: "Apply to Work With Us", ariaLabel: "View open roles", link: "/careers" },
 ];
 
 const socialItems = [

@@ -5,7 +5,7 @@ import TitleCard from "@/components/TitleCard";
 import Section from "@/components/ui/section";
 
 export const metadata = {
-  title: "We're Hiring | HyperFocused Holdings",
+  title: "Apply to Work With Us | HyperFocused Holdings",
   description:
     "Join HyperFocused Holdings and help build market-making infrastructure across prediction and on-chain markets.",
 };
@@ -36,7 +36,9 @@ export default function CareersPage() {
       <section className="min-h-screen flex items-center pt-32">
         <div className="grid-system">
           <div className="col-span-full md:col-start-2 md:col-end-6">
-            <p className="text-sm text-c-orange font-medium mb-5">WE&apos;RE HIRING</p>
+            <p className="text-sm text-c-orange font-medium mb-5">
+              APPLY TO WORK WITH US
+            </p>
             <h1 className="2xl:text-[64px] text-4xl md:text-6xl lg:text-8xl font-semibold text-c-black">
               Build the Future of Market Making
             </h1>
