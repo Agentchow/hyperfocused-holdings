@@ -265,8 +265,8 @@ export default function Divisons() {
           {[
             {
               year: "2025",
-              profit: "$175K",
-              margin: "35%",
+              profit: "$0",
+              margin: "0%",
               milestones: [
                 "Launch private fund structure",
                 "Build market-making infrastructure",

@@ -20,7 +20,7 @@ import {
 export const description = "A bar chart";
 
 const chartData = [
-  { month: "25", desktop: 175000 },
+  { month: "25", desktop: 0 },
   { month: "26", desktop: 1000000 },
   { month: "27", desktop: 2000000 },
 ];

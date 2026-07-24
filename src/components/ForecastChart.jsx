@@ -20,7 +20,7 @@ import {
 export const description = "A linear area chart";
 
 const chartData = [
-  { month: "25", desktop: 35 },
+  { month: "25", desktop: 0 },
   { month: "26", desktop: 40 },
   { month: "27", desktop: 99 },
 ];

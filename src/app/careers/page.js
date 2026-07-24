@@ -75,12 +75,7 @@ export default function CareersPage() {
 
         <div className="grid-system mt-12 pb-16 md:pb-32">
           <div className="col-span-full md:col-start-2 md:col-end-6 text-center">
-            <p className="text-xl text-white/70">
-              Interested in working with us? Send an introduction and relevant
-              experience to charles@hyperfocusedholdings.com.
-            </p>
             <Button
-              className="mt-8"
               href="mailto:charles@hyperfocusedholdings.com"
             >
               Email Your Application
