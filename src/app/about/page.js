@@ -92,7 +92,7 @@ export default function AboutPage() {
         <div className="grid-system mt-6">
           <div className="col-span-full md:col-start-2 md:col-end-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
-              { label: "AUM", value: "$10M" },
+              { label: "Deployable Capital", value: "$3M" },
               { label: "Core Strategy", value: "Market Making" },
               { label: "Net IRR (Fund I)", value: "19.4%" },
               { label: "Kalshi Market Share", value: "89%" },

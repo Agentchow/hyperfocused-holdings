@@ -81,9 +81,9 @@ export default function Hero() {
               </p>
             </div>
             <div>
-              <p className="text-c-black text-2xl md:text-5xl mb-2">45%</p>
+              <p className="text-c-black text-2xl md:text-5xl mb-2">$3M</p>
               <p className="text-c-black opacity-60 text-sm md:text-base">
-                Net Margin
+                Deployable Capital
               </p>
             </div>
           </div>

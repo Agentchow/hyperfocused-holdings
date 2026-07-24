@@ -5,6 +5,7 @@ import { motion } from "motion/react";
 
 export default function Metrics() {
   const metrics = [
+    { value: "$3M", label: "Deployable capital" },
     { value: "5%", label: "Target return on deployed capital" },
     { value: "$200M", label: "Annual market-making volume target" },
     { value: "$2M", label: "Annual profit target" },
@@ -12,7 +13,6 @@ export default function Metrics() {
     { value: "24/7", label: "Automated market monitoring" },
     { value: "99.9%", label: "Target execution-system uptime" },
     { value: "<2%", label: "Maximum capital exposure per market" },
-    { value: "100%", label: "Orders subject to automated risk checks" },
   ];
 
   const containerVariants = {
