@@ -1,16 +1,18 @@
 import React from "react";
 import Menu from "./Menu";
 import Link from "next/link";
+import { DISCORD_INVITE_URL } from "@/lib/constants";
 const menuItems = [
   { label: "Home", ariaLabel: "Go to home page", link: "/" },
   { label: "About", ariaLabel: "Learn about us", link: "/about" },
   { label: "Services", ariaLabel: "View our exchange services", link: "/services" },
+  { label: "We're Hiring", ariaLabel: "View open roles", link: "/careers" },
 ];
 
 const socialItems = [
   { label: "LinkedIn", link: "https://www.linkedin.com/in/charles-chow1/" },
   { label: "YouTube", link: "https://www.youtube.com/@Charles_Chow" },
-  { label: "Discord", link: "https://discord.gg/GWBVfTh8" },
+  { label: "Discord", link: DISCORD_INVITE_URL },
 ];
 export default function Nav() {
   return (

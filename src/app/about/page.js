@@ -16,18 +16,8 @@ export default function AboutPage() {
   const milestones = [
     {
       year: "2023",
-      title: "Foundation",
-      description: "HyperFocused Holdings was established to build systematic strategies for event-contract markets.",
-    },
-    {
-      year: "2024",
-      title: "Quantitative Research",
-      description: "Developed the initial pricing, forecasting, and risk framework for prediction-market contracts.",
-    },
-    {
-      year: "2025",
-      title: "Infrastructure",
-      description: "Expanded automated execution, monitoring, and cross-contract risk infrastructure.",
+      title: "Private Fund Established",
+      description: "HyperFocused Holdings was established as a private market-making fund.",
     },
     {
       year: "2026",
@@ -219,8 +209,10 @@ export default function AboutPage() {
                     {[
                       "Visionary thinking",
                       "Algorithmic market making",
-                      "Tech automation",
-                      "Risk analysis",
+                      "Scaling systems",
+                      "Risk appetite",
+                      "Edge finding",
+                      "Origination",
                     ].map((strength, i) => (
                       <div key={i} className="flex items-center gap-2 w-fit">
                         <div className="bg-c-black size-2.5" />
@@ -239,8 +231,7 @@ export default function AboutPage() {
                   </p>
                   <div className="space-y-3">
                     {[
-                      "Raised on a Rural Ranch in NC",
-                      "Ex-Software Engineer at Uber",
+                      "Raised in Rural North Carolina",
                       "DIV I NCAA scholarship Student-Athlete",
                     ].map((item, i) => (
                       <div

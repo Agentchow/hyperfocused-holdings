@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import { DISCORD_INVITE_URL } from "@/lib/constants";
 
 export default function Footer() {
   return (
@@ -24,6 +25,7 @@ export default function Footer() {
                   <li><Link href="/">Home</Link></li>
                   <li><Link href="/about">About</Link></li>
                   <li><Link href="/services">Services</Link></li>
+                  <li><Link href="/careers">We&apos;re Hiring</Link></li>
                 </ul>
               </div>
               <div>
@@ -32,7 +34,7 @@ export default function Footer() {
                 </div>
                 <div className="space-y-2 text-sm text-[rgba(11,11,11,0.6)]">
                   <p><a href="https://www.youtube.com/@Charles_Chow" target="_blank" rel="noopener noreferrer" className="hover:underline">Youtube</a></p>
-                  <p><a href="https://discord.gg/GWBVfTh8" target="_blank" rel="noopener noreferrer" className="hover:underline">Discord</a></p>
+                  <p><a href={DISCORD_INVITE_URL} target="_blank" rel="noopener noreferrer" className="hover:underline">Discord</a></p>
                   <p><a href="https://www.linkedin.com/in/charles-chow1/" target="_blank" rel="noopener noreferrer" className="hover:underline">LinkedIn</a></p>
                 </div>
               </div>

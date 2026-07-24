@@ -2,6 +2,7 @@ import React from "react";
 import { VisionSvg } from "../../helpers/icons";
 import TitleCard from "./TitleCard";
 import Button from "./Button";
+import { DISCORD_INVITE_URL } from "@/lib/constants";
 
 export default function About() {
   const divisionsOverview = [
@@ -63,7 +64,14 @@ export default function About() {
             A focused market-making platform where quantitative research,
             execution technology, and disciplined risk management converge.
           </h3>
-          <Button className="mt-12">Join Our Community</Button>
+          <Button
+            className="mt-12"
+            href={DISCORD_INVITE_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Join Our Community
+          </Button>
         </div>
       </div>
     </section>

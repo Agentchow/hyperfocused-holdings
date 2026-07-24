@@ -1,9 +1,12 @@
 import React from "react";
 
-export default function Button({ children, className = "", ...props }) {
+export default function Button({ children, className = "", href, ...props }) {
+  const Component = href ? "a" : "button";
+
   return (
-    <button
+    <Component
       {...props}
+      href={href}
       className={`group relative font-medium text-c-black px-4 py-3 md:px-6 md:py-3 rounded-md text-lg md:text-2xl flex items-center gap-4 mx-auto overflow-hidden ${className} cursor-pointer bg-c-orange`}
     >
       <span className="absolute inset-0 bg-c-black translate-y-full transition-transform duration-400 ease-out group-hover:translate-y-0" />
@@ -23,7 +26,7 @@ export default function Button({ children, className = "", ...props }) {
 
         <SvgIcon className="absolute inset-0 size-8 md:size-10 -translate-x-full text-c-orange ease-out transition-transform duration-400 group-hover:translate-x-0" />
       </div>
-    </button>
+    </Component>
   );
 }
 

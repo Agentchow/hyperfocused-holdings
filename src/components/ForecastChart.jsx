@@ -22,7 +22,7 @@ export const description = "A linear area chart";
 const chartData = [
   { month: "25", desktop: 35 },
   { month: "26", desktop: 40 },
-  { month: "27", desktop: 45 },
+  { month: "27", desktop: 99 },
 ];
 
 const chartConfig = {
@@ -77,7 +77,7 @@ export function ForecastChart() {
         <div className="flex w-full items-start gap-2 text-sm">
           <div className="grid gap-2">
             <div className="flex items-center gap-2 leading-none font-medium">
-              45% Margin by the end of 2027 <TrendingUp className="h-4 w-4" />
+              99% Margin by the end of 2027 <TrendingUp className="h-4 w-4" />
             </div>
             <div className="text-muted-foreground flex items-center gap-2 leading-none">
               2025 - 2027

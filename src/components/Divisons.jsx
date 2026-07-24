@@ -72,7 +72,8 @@ export default function Divisons() {
                     Strategy
                   </td>
                   <td className="py-4 px-6">
-                    Algorithmic liquidity provision across event contracts
+                    Proprietary models validated through simulations and
+                    historical backtests before deployment
                   </td>
                 </tr>
                 <tr className="border-b border-white/10">
@@ -285,7 +286,7 @@ export default function Divisons() {
             {
               year: "2027",
               profit: "$2M",
-              margin: "45%",
+              margin: "99%",
               milestones: [
                 "Scale cross-exchange liquidity",
                 "Expand event-contract coverage",

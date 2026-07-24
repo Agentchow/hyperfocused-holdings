@@ -15,7 +15,7 @@ export default function Core() {
     },
     {
       title: "Core Focus",
-      text: "Operate through partnerships with Polymarket and Kalshi, as well as other prediction markets, using proprietary models, automated execution, cross-market hedging, and real-time risk controls.",
+      text: "Operate through partnerships with Polymarket and Kalshi, as well as other prediction markets, using proprietary models validated through simulations and historical backtests alongside automated execution and real-time risk controls.",
       Icon: CoreSvg,
     },
   ];
