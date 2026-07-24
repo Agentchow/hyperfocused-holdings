@@ -59,8 +59,9 @@ export default function Hero() {
           </h2>
           <div className="grid-system mt-12">
             <p className="md:col-start-2 md:col-end-5 xl:col-end-4 col-span-full md:text-lg lg:text-2xl 2xl:text-3xl max-w-[40ch] mr-auto md:mt-16">
-              Acquiring and scaling founder-led businesses. Institutional market maker on Kalshi.
-              Targeting $250K–$2M EBITDA with AI-driven value creation and algorithmic trading.
+              A private fund focused on systematic market making. We provide
+              origination and liquidity through partnerships with Polymarket
+              and Kalshi, with additional operations on Hyperliquid.
             </p>
           </div>
         </div>
@@ -68,15 +69,15 @@ export default function Hero() {
         <div className=" grid-system px-[16px] md:px-[32px] py-6">
           <div className=" col-start-1 col-span-full md:col-start-2 md:col-end-6 w-full flex justify-between md: text-center">
             <div className=" ">
-              <p className="text-c-black text-2xl md:text-5xl mb-2">4</p>
+              <p className="text-c-black text-2xl md:text-5xl mb-2">1</p>
               <p className="text-c-black opacity-60 text-sm md:text-base">
-                Core Divisions
+                Core Strategy
               </p>
             </div>
             <div>
-              <p className="text-c-black text-2xl md:text-5xl mb-2">$7M+</p>
+              <p className="text-c-black text-2xl md:text-5xl mb-2">$2M</p>
               <p className="text-c-black opacity-60 text-sm md:text-base">
-                2027 Target
+                Year-Over-Year Profit
               </p>
             </div>
             <div>

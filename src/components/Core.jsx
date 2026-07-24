@@ -5,17 +5,17 @@ export default function Core() {
   const sections = [
     {
       title: "Mission",
-      text: "Create enduring value by acquiring founder-led companies, providing institutional liquidity on prediction markets, and compounding improvements through technology, talent, and disciplined capital allocation.",
+      text: "Provide reliable liquidity across prediction markets through systematic pricing, disciplined risk management, and low-latency execution.",
       Icon: MissionSvg,
     },
     {
       title: "Vision",
-      text: "Be the most trusted partner to owners, exchanges, and investors by delivering consistent, risk-adjusted returns across private equity and algorithmic trading.",
+      text: "Become a trusted market-making fund for exchanges and investors by delivering consistent, risk-adjusted performance across event-contract markets.",
       Icon: VisionSvg,
     },
     {
       title: "Core Focus",
-      text: "Target $250K–$2M EBITDA, succession‑ready businesses in fragmented markets. Operate as institutional market maker on Kalshi. Deploy AI-driven systems to unlock margin expansion across every vertical.",
+      text: "Operate through partnerships with Polymarket and Kalshi, alongside market-making operations on Hyperliquid, using proprietary models, automated execution, cross-market hedging, and real-time risk controls.",
       Icon: CoreSvg,
     },
   ];
@@ -31,8 +31,8 @@ export default function Core() {
           <LazyVideo />
 
           <p className="md:text-xl lg:text-2xl 2xl:text-3xl max-w-[30ch] mr-auto lg:mr-0">
-            A new age holding company bridging private equity, algorithmic
-            trading, and real-world asset ownership.
+            A quantitative private fund built for systematic liquidity across
+            prediction and on-chain markets.
           </p>
         </div>
       </section>

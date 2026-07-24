@@ -4,128 +4,47 @@ import Button from "@/components/Button";
 import { VentureSvg, VisionSvg } from "../../../helpers/icons";
 import TitleCard from "@/components/TitleCard";
 import Section from "@/components/ui/section";
-import CaseStudies from "@/components/CaseStudies";
 
 export const metadata = {
-  title: "Services | HyperFocused Holdings",
-  description: "Business acquisition, institutional market making on Kalshi, AI optimization, and scaling services.",
+  title: "Exchange Services | HyperFocused Holdings",
+  description: "Market-making origination and liquidity provision for prediction-market exchanges.",
 };
 
 export default function ServicesPage() {
   const services = [
     {
-      title: "Business Acquisition",
-      description: "We identify and acquire high-potential businesses across digital and physical sectors with proven track records and growth opportunities.",
+      title: "Market-Making Origination",
+      description: "We originate and launch institutional market-making programs for prediction-market exchanges.",
       features: [
-        "Comprehensive due diligence",
-        "Valuation & deal structuring",
-        "Strategic integration planning",
-        "Post-acquisition support",
+        "Exchange and market assessment",
+        "Liquidity program design",
+        "Pricing and execution integration",
+        "Market-maker onboarding and launch",
       ],
-      audience: "Owners seeking succession or liquidity; intermediaries (bankers/brokers)",
-      engagement: "30–90 day diligence → 30–60 day close",
-      outcomes: "Seamless transition, preserved legacy, optimized capital structure",
+      audience: "Prediction-market exchanges launching or expanding markets",
+      engagement: "Origination through launch, followed by ongoing support",
+      outcomes: "Faster market activation and scalable liquidity infrastructure",
     },
     {
-      title: "AI-Driven Optimization",
-      description: "Transform traditional business operations with cutting-edge AI and automation systems to maximize efficiency and profitability.",
+      title: "Exchange Liquidity",
+      description: "We provide systematic two-sided liquidity across event contracts using proprietary pricing and execution systems.",
       features: [
-        "Process automation",
-        "AI implementation strategy",
-        "Performance analytics",
-        "Continuous optimization",
-      ],
-      audience: "Portfolio operators and management teams",
-      engagement: "8–12 week sprints with KPI-driven roadmap",
-      outcomes: "EBITDA margin expansion, improved throughput, reduced working capital needs",
-    },
-    {
-      title: "Operational Efficiencies",
-      description: "Transform legacy operations with modern technology integrations, streamlined workflows, and automated systems that eliminate inefficiencies and boost productivity.",
-      features: [
-        "CRM integration & optimization",
-        "Modern tech stack implementation",
-        "Workflow automation",
-        "Data integration & analytics",
-      ],
-      audience: "Businesses with outdated systems; companies seeking digital transformation",
-      engagement: "4–12 week implementation sprints; ongoing optimization support",
-      outcomes: "Reduced operational costs, improved data visibility, faster response times, scalable infrastructure",
-    },
-    {
-      title: "Brand Development",
-      description: "Build powerful brands that resonarte with target audiences and create lasting market presence across all channels.",
-      features: [
-        "Brand strategy",
-        "Digital presence",
-        "Marketing campaigns",
-        "Community building",
-      ],
-      audience: "Early-stage ventures and mature PE-backed businesses",
-      engagement: "4–8 week brand system; ongoing content engine",
-      outcomes: "Demand generation, pricing power, higher close rates",
-    },
-    {
-      title: "Institutional Market Making",
-      description: "Algorithmic liquidity provision on Kalshi's CFTC-regulated prediction exchange across event contract categories.",
-      features: [
-        "Proprietary pricing models",
-        "Low-latency execution infrastructure",
-        "Real-time risk management",
+        "Continuous two-sided quoting",
+        "Spread and inventory optimization",
         "Cross-contract hedging",
+        "Real-time risk management",
       ],
-      audience: "Institutional exchanges and prediction market platforms",
-      engagement: "Continuous automated quoting with 24/7 monitoring",
-      outcomes: "Consistent spread capture, deep liquidity provision, institutional-grade execution",
-    },
-    {
-      title: "Capital Allocation",
-      description: "Strategic capital deployment across portfolio companies to maximize returns and fuel sustainable expansion.",
-      features: [
-        "Investment analysis",
-        "Risk management",
-        "Capital efficiency",
-        "ROI optimization",
-      ],
-      audience: "Investment committees and executive teams",
-      engagement: "Continuous; tied to portfolio operating cadence",
-      outcomes: "Optimized ROIC, disciplined deployment, balanced risk",
-    },
-    {
-      title: "Scaling Solutions",
-      description: "Comprehensive scaling strategies to help businesses grow from regional operations to national and global presence.",
-      features: [
-        "Growth strategy",
-        "Market expansion",
-        "Infrastructure development",
-        "Team building",
-      ],
-      audience: "High-potential companies preparing for multi-region expansion",
-      engagement: "6–12 month scale-up programs",
-      outcomes: "New market entry, revenue growth, durable operating leverage",
+      audience: "Exchanges seeking deeper, more resilient event-contract markets",
+      engagement: "Continuous automated operation with 24/7 monitoring",
+      outcomes: "Deeper liquidity, tighter spreads, and stronger price discovery",
     },
   ];
 
   const divisions = [
     {
-      name: "HyperFocused Capital",
-      focus: "Investment & Advisory",
-      description: "Strategic investment and advisory services for emerging businesses and entrepreneurs.",
-    },
-    {
-      name: "HyperFocused Trading",
-      focus: "HFT & Market Making",
-      description: "Institutional market making on Kalshi's CFTC-regulated prediction exchange. Algorithmic liquidity provision across event contracts in macro, sports, crypto, and geopolitical markets.",
-    },
-    {
-      name: "HyperFocused Media",
-      focus: "Content & Branding",
-      description: "Building powerful media brands and content platforms that drive engagement and revenue.",
-    },
-    {
-      name: "HyperFocused Ventures",
-      focus: "Digital & Tech Businesses",
-      description: "Acquiring and scaling high-margin SaaS, e-commerce, and digital service businesses.",
+      name: "HyperFocused Market Making",
+      focus: "Multi-Venue Liquidity",
+      description: "Market-making partnerships with Polymarket and Kalshi across event contracts, complemented by on-chain operations on Hyperliquid.",
     },
   ];
 
@@ -138,10 +57,10 @@ export default function ServicesPage() {
         <div className="grid-system">
           <div className="col-span-full md:col-start-2 md:col-end-6">
             <h1 className="2xl:text-[64px] text-4xl md:text-6xl lg:text-8xl font-semibold text-c-black">
-              Our Services
+              Exchange Services
             </h1>
             <p className="mt-6 md:text-xl lg:text-2xl 2xl:text-3xl text-c-black/60 max-w-[40ch]">
-              Comprehensive solutions for acquiring, building, and scaling high-margin businesses.
+              Origination and liquidity provision for prediction-market exchanges.
             </p>
             {/* <Button className="mt-12">Schedule a Consultation</Button> */}
           </div>
@@ -151,8 +70,8 @@ export default function ServicesPage() {
       {/* Services Grid */}
       <Section bgClass="bg-[#f8f8f8]" noTop>
         <TitleCard
-          title="What We Offer"
-          description="End-to-end solutions for business acquisition, optimization, and growth."
+          title="What We Provide"
+          description="End-to-end market-making origination and ongoing exchange liquidity."
           tagline="OUR EXPERTISE"
         />
         
@@ -188,11 +107,11 @@ export default function ServicesPage() {
       {/* Divisions Section */}
       <Section bgClass="bg-c-black text-white rounded-t-3xl" noTop>
         <TitleCard
-          title="Four Core Divisions"
+          title="Exchange Partnerships"
           titleClassName="text-white/60"
-          description="Each division operates independently but synergizes through shared infrastructure."
+          description="Providing origination and liquidity through partnerships with Polymarket and Kalshi, with additional operations on Hyperliquid."
           descriptionClassName="text-white/40"
-          tagline="MULTI-VERTICAL STRUCTURE"
+          tagline="PARTNER ECOSYSTEM"
         />
         
         <div className="grid-system mt-12 md:mt-16">
@@ -219,31 +138,21 @@ export default function ServicesPage() {
         </div>
       </Section>
 
-      {/* Case Studies */}
-      <Section bgClass="bg-white" noTop>
-        <TitleCard
-          title="Selected Case Studies"
-          description="Brief snapshots of value creation across sectors."
-          tagline="PROVEN OUTCOMES"
-        />
-        <CaseStudies />
-      </Section>
-
       {/* Process Section */}
       <Section bgClass="bg-white" noTop>
         <TitleCard
           title="Our Process"
-          description="A proven framework for transforming businesses through systematic execution."
+          description="A systematic framework for pricing, executing, and managing event-contract risk."
           tagline="HOW WE WORK"
         />
         
         <div className="grid-system mt-12 md:mt-16">
           <div className="col-span-full md:col-start-2 md:col-end-6 grid gap-8 md:gap-12 lg:grid-cols-4">
             {[
-              { step: "01", title: "Discovery", desc: "Understanding your business and goals" },
-              { step: "02", title: "Strategy", desc: "Developing a comprehensive plan" },
-              { step: "03", title: "Execution", desc: "Implementing solutions with precision" },
-              { step: "04", title: "Optimization", desc: "Continuous improvement and scaling" },
+              { step: "01", title: "Origination", desc: "Designing the exchange liquidity program" },
+              { step: "02", title: "Pricing", desc: "Generating inventory-aware two-sided quotes" },
+              { step: "03", title: "Execution", desc: "Providing liquidity with automated systems" },
+              { step: "04", title: "Risk", desc: "Monitoring exposure and recalibrating continuously" },
             ].map((item, index) => (
               <div key={index} className="border-t-2 border-c-orange pt-6">
                 <div className="text-5xl lg:text-6xl font-bold text-c-orange mb-4">{item.step}</div>

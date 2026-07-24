@@ -5,32 +5,14 @@ import { motion } from "motion/react";
 
 export default function Metrics() {
   const metrics = [
-    { value: "$1.7M", label: "Assets Under Management (AUM)" },
-    { value: "19.4%", label: "Net IRR (Fund I)" },
-    { value: "1.90×", label: "TVPI (Fund I)" },
-    { value: "1.20×", label: "DPI (Fund I)" },
-    { value: "2 / 4", label: "Platforms / Add‑ons" },
-    { value: "1", label: "Exits" },
-    { value: "38%", label: "Average portfolio EBITDA margin" },
-    { value: "3.1×", label: "Average acquisition multiple" },
-    {
-      value: "42% YoY",
-      label: "Aggregate revenue growth across operating companies",
-    },
-    {
-      value: "150%+",
-      label:
-        "Average Year-1 cash-on-cash return on optimized small-business acquisitions",
-    },
-    {
-      value: "<30 Days",
-      label: "Average diligence-to-close timeline per deal",
-    },
-    { value: "90%+", label: "Client retention rate in operating companies" },
-    { value: "$178B", label: "Kalshi annualized platform volume (2026)" },
-    { value: "89%", label: "Kalshi U.S. prediction market share" },
-    { value: "1,100%", label: "Kalshi YoY volume growth (2025)" },
-    { value: "800%", label: "Institutional volume growth on Kalshi (6 mo)" },
+    { value: "5%", label: "Target return on deployed capital" },
+    { value: "$200M", label: "Annual market-making volume target" },
+    { value: "$2M", label: "Annual profit target" },
+    { value: "3", label: "Active exchanges and venues" },
+    { value: "24/7", label: "Automated market monitoring" },
+    { value: "99.9%", label: "Target execution-system uptime" },
+    { value: "<2%", label: "Maximum capital exposure per market" },
+    { value: "100%", label: "Orders subject to automated risk checks" },
   ];
 
   const containerVariants = {

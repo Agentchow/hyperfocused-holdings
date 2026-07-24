@@ -9,7 +9,7 @@ import LazyVideo from "@/components/LazyVideo";
 
 export const metadata = {
   title: "About | HyperFocused Holdings",
-  description: "Learn about HyperFocused Holdings — private equity, institutional market making on Kalshi, and AI-driven business scaling.",
+  description: "Learn about HyperFocused Holdings — a private fund focused on systematic market making across prediction and on-chain markets.",
 };
 
 export default function AboutPage() {
@@ -17,34 +17,34 @@ export default function AboutPage() {
     {
       year: "2023",
       title: "Foundation",
-      description: "HyperFocused Holdings was established with a vision to revolutionize private equity.",
+      description: "HyperFocused Holdings was established to build systematic strategies for event-contract markets.",
     },
     {
       year: "2024",
-      title: "First Acquisitions",
-      description: "Successfully acquired and integrated our first portfolio companies across digital and physical sectors.",
+      title: "Quantitative Research",
+      description: "Developed the initial pricing, forecasting, and risk framework for prediction-market contracts.",
     },
     {
       year: "2025",
-      title: "Expansion",
-      description: "Expanding operations across 5 key sectors with focus on AI-driven optimization.",
+      title: "Infrastructure",
+      description: "Expanded automated execution, monitoring, and cross-contract risk infrastructure.",
     },
     {
       year: "2026",
-      title: "Trading Division & Kalshi Partnership",
-      description: "Launched HFT market making division as institutional market maker on Kalshi — the CFTC-regulated exchange valued at $22B with $178B annualized volume and 89% U.S. market share.",
+      title: "Exchange Partnerships",
+      description: "Market-making partnerships with Polymarket and Kalshi, plus on-chain operations on Hyperliquid, supported by proprietary pricing and real-time risk controls.",
     },
     {
       year: "2027",
       title: "Target Achievement",
-      description: "Targeting $7M+ portfolio value with 45% net margin across all divisions including trading revenue.",
+      description: "Targeting $2M in year-over-year profit from prediction-market market making.",
     },
   ];
 
   const values = [
     {
       title: "Innovation First",
-      description: "We leverage cutting-edge AI, algorithmic trading, and automation to eliminate inefficiencies and maximize value.",
+      description: "We leverage cutting-edge AI, algorithmic market making, and automation to eliminate inefficiencies and maximize value.",
     },
     {
       title: "Quantitative Edge",
@@ -52,11 +52,11 @@ export default function AboutPage() {
     },
     {
       title: "Multi-Dimensional Growth",
-      description: "Diversified portfolio across digital, automotive, software, service, real estate, and prediction market sectors.",
+      description: "Strategy diversification across macro, sports, crypto, economic, and geopolitical event contracts.",
     },
     {
       title: "Community-Driven",
-      description: "Building a thriving community of entrepreneurs, traders, investors, and innovators.",
+      description: "Building a community of quantitative researchers, market participants, investors, and innovators.",
     },
   ];
 
@@ -72,7 +72,7 @@ export default function AboutPage() {
               About Us
             </h1>
             <p className="mt-6 md:text-xl lg:text-2xl 2xl:text-3xl text-c-black/60 max-w-[40ch]">
-              Building the next generation holding company through hyper-focused execution and AI-driven innovation.
+              Building the next generation of private funds through hyper-focused execution and AI-driven innovation.
             </p>
             {/* <Button className="mt-12">View Business Plan</Button> */}
           </div>
@@ -84,7 +84,7 @@ export default function AboutPage() {
         <TitleCard
           title="Our Mission"
           titleClassName="text-white/60"
-          description="Creating a fully integrated ecosystem where community, capital, and innovation converge."
+          description="Building focused infrastructure for prediction-market liquidity and systematic execution."
           descriptionClassName="text-white/40"
           tagline="THE FUTURE"
         />
@@ -93,7 +93,7 @@ export default function AboutPage() {
           <div className="col-span-full md:col-start-2 md:col-end-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
               { label: "AUM", value: "$10M" },
-              { label: "Core Divisions", value: "4" },
+              { label: "Core Strategy", value: "Market Making" },
               { label: "Net IRR (Fund I)", value: "19.4%" },
               { label: "Kalshi Market Share", value: "89%" },
             ].map((s, i) => (
@@ -114,12 +114,13 @@ export default function AboutPage() {
             <div className="flex gap-2 items-center mb-6">
               <VisionSvg className="w-auto h-3" />
               <p className="text-xs text-c-orange text-nowrap">
-                Business Philosophy
+                Fund Philosophy
               </p>
             </div>
             <p className="text-2xl lg:text-3xl 2xl:text-4xl text-white/80 max-w-[55ch] leading-relaxed">
-              We acquire, build, and scale high-margin businesses while operating as institutional market makers on Kalshi. 
-              AI innovation, algorithmic trading, and systematic execution converge to generate value across every sector we touch.
+              We operate as a market-making fund across prediction and on-chain
+              markets. Quantitative research, automated execution, and
+              disciplined risk management drive every strategy we deploy.
             </p>
           </div>
         </div>
@@ -152,7 +153,7 @@ export default function AboutPage() {
       <Section bgClass="bg-[#f8f8f8]" noTop>
         <TitleCard
           title="Our Journey"
-          description="Key milestones in building the future of private holdings."
+          description="Key milestones in building a modern private fund."
           tagline="TIMELINE"
         />
         <div className="grid-system mt-12 md:mt-16">
@@ -211,15 +212,15 @@ export default function AboutPage() {
                   <div className="flex gap-2 items-center mb-3">
                     <VentureSvg className="w-auto h-3" />
                     <p className="text-xs  text-c-orange text-nowrap">
-                      Business Acquisitions
+                      Prediction Markets
                     </p>
                   </div>
                   <div className="flex flex-wrap gap-4">
                     {[
                       "Visionary thinking",
-                      "Algorithmic trading",
+                      "Algorithmic market making",
                       "Tech automation",
-                      "Deal analysis",
+                      "Risk analysis",
                     ].map((strength, i) => (
                       <div key={i} className="flex items-center gap-2 w-fit">
                         <div className="bg-c-black size-2.5" />

@@ -4,17 +4,16 @@ import Hero from "../components/Hero";
 import Nav from "../components/Nav";
 import About from "../components/About";
 import Divisons from "@/components/Divisons";
-import { range } from "../../helpers/utils";
 import Footer from "@/components/Footer";
 import Image from "next/image";
 export const metadata = {
-  title: "HyperFocused Holdings | Private Equity & Institutional Trading",
+  title: "HyperFocused Holdings | Private Fund & Market Making",
   description:
-    "Acquiring, building, and scaling founder-led businesses with AI-driven value creation. Institutional market maker on Kalshi. Targeting $250k–$2M EBITDA, succession-ready, US/Canada.",
+    "A private market-making fund partnered with Polymarket and Kalshi, with additional operations on Hyperliquid.",
   openGraph: {
-    title: "HyperFocused Holdings | Private Equity & Institutional Trading",
+    title: "HyperFocused Holdings | Private Fund & Market Making",
     description:
-      "Acquiring, building, and scaling founder-led businesses. Institutional market maker on Kalshi's CFTC-regulated prediction exchange.",
+      "Systematic prediction-market liquidity powered by proprietary pricing, execution, and risk systems.",
     type: "website",
     locale: "en_US",
   },
@@ -32,21 +31,10 @@ export default function Home() {
       <div
         className={`2xl:text-[64px] text-4xl md:text-5xl lg:text-6xl font-semibold text-center text-white/60 bg-c-black  flex items-center justify-center flex-col`}
       >
-        <h1 className="mt-32">Current Partners</h1>
+        <h1 className="mt-32">Exchanges & Venues</h1>
         <div className="flex mt-6 mb-20 md:my-12 md:mb-32 gap-6 md:gap-10 mx-auto z-10 items-center">
-          {range(2).map((i) => {
-            const num = i + 1;
-            return (
-              <Image
-                key={i}
-                src={`/${num}.svg`}
-                alt={`Partner ${num} logo`}
-                width={160}
-                height={60}
-                className="h-full max-w-20 md:max-w-30"
-              />
-            );
-          })}
+          <p className="text-2xl md:text-4xl text-white">Polymarket</p>
+          <p className="text-2xl md:text-4xl text-white">Hyperliquid</p>
           <Image
             src="/kalshi.svg"
             alt="Kalshi logo"

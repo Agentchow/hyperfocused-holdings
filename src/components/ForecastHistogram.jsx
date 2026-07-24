@@ -20,14 +20,14 @@ import {
 export const description = "A bar chart";
 
 const chartData = [
-  { month: "25", desktop: 500000 },
-  { month: "26", desktop: 2500000 },
-  { month: "27", desktop: 7000000 },
+  { month: "25", desktop: 175000 },
+  { month: "26", desktop: 1000000 },
+  { month: "27", desktop: 2000000 },
 ];
 
 const chartConfig = {
   desktop: {
-    label: "Revenue",
+    label: "Profit",
     color: "var(--color-c-black)",
   },
 };
@@ -36,9 +36,9 @@ export function ForecastHistogram() {
   return (
     <Card className="bg-[#111111] border-none text-white/60">
       <CardHeader>
-        <CardTitle>Revenue - 3 Year forecast</CardTitle>
+        <CardTitle>Profit - 3 Year Forecast</CardTitle>
         <CardDescription>
-          Showing the revenue increase in the upcoming 3 years
+          Projected annual profit growth over three years
         </CardDescription>
       </CardHeader>
       <CardContent>
@@ -67,7 +67,7 @@ export function ForecastHistogram() {
       </CardContent>
       <CardFooter className="flex-col items-start gap-2 text-sm">
         <div className="flex gap-2 leading-none font-medium">
-          $7M Revenue by the end of 2027 <TrendingUp className="h-4 w-4" />
+          $2M year-over-year profit target <TrendingUp className="h-4 w-4" />
         </div>
         <div className="text-muted-foreground leading-none">2025-2027</div>
       </CardFooter>

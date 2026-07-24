@@ -6,24 +6,24 @@ import Button from "./Button";
 export default function About() {
   const divisionsOverview = [
     {
-      title: "6 Sector Presence",
+      title: "Multi-Venue Markets",
       description:
-        "Holdings across digital, automotive, software, service, real estate, and prediction markets.",
+        "Systematic liquidity across Polymarket, Kalshi, and Hyperliquid.",
     },
     {
-      title: "$100M+ Portfolio",
+      title: "$2M Profit Target",
       description:
-        "Build a diversified portfolio exceeding $100M in total value.",
+        "Building systematic market-making operations targeting $2M in profit year over year.",
     },
     {
-      title: "Institutional Trading",
+      title: "Institutional Market Making",
       description:
-        "Market making operations on Kalshi powering liquidity in the fastest-growing asset class in finance.",
+        "Continuous two-sided quoting designed to deepen liquidity across event-contract and on-chain markets.",
     },
     {
-      title: "New Private Equity",
+      title: "Modern Private Fund",
       description:
-        "A cutting edge firm that blends HFT, AI, and traditional private equity into one holding company.",
+        "A quantitative fund combining proprietary pricing, automated execution, and real-time risk management.",
     },
   ];
   return (
@@ -31,7 +31,7 @@ export default function About() {
       <TitleCard
         title={"Foresight"}
         description={
-          "Building the foundation today for tomorrow's leading holding company."
+          "Building the foundation today for tomorrow's leading private fund."
         }
         descriptionClassName="text-c-black/60"
         tagline={"2030 VISION"}
@@ -57,12 +57,11 @@ export default function About() {
         <div className="flex flex-col items-center col-span-full md:col-start-2 md:col-end-6 py-6 px-8 bg-[#f8f8f8] rounded-2xl">
           <h1 className="2xl:text-[64px] text-4xl">2026</h1>
           <h1 className="2xl:text-5xl text-2xl text-center">
-            The Future of Private Holdings
+            The Future of Private Funds
           </h1>
           <h3 className="2xl:text-2xl  text-lg text-center text-black/60 py-6 max-w-[60ch]">
-            A fully integrated ecosystem where community, capital, and
-            innovation converge to create unprecedented value across multiple
-            sectors.
+            A focused market-making platform where quantitative research,
+            execution technology, and disciplined risk management converge.
           </h3>
           <Button className="mt-12">Join Our Community</Button>
         </div>

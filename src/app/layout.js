@@ -11,11 +11,11 @@ const poppins = Poppins({
 export const metadata = {
   title: "HyperFocused",
   description:
-    "Private equity and institutional market making. Acquiring and scaling founder-led businesses. Kalshi market maker powering liquidity on the largest U.S. prediction exchange.",
+    "A private market-making fund providing origination and liquidity through partnerships with Polymarket and Kalshi, with operations on Hyperliquid.",
   openGraph: {
     title: "HyperFocused Holdings",
     description:
-      "Private equity and institutional market making. Acquiring and scaling founder-led businesses. Kalshi market maker powering liquidity on the largest U.S. prediction exchange.",
+      "A private market-making fund providing origination and liquidity through partnerships with Polymarket and Kalshi, with operations on Hyperliquid.",
     url: "https://www.hyperfocusedholdings.com/",
     siteName: "HyperFocused Holdings",
     images: [
@@ -32,7 +32,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "HyperFocused Holdings",
     description:
-      "Private equity and institutional market making. Acquiring and scaling founder-led businesses. Kalshi market maker.",
+      "A private fund focused on systematic market making across prediction and on-chain markets.",
     images: ["/hflogo.webp"],
   },
   icons: {

@@ -3,9 +3,6 @@ import TitleCard from "./TitleCard";
 import Modal from "./Modal";
 
 import {
-  CapitalSvg,
-  VentureSvg2,
-  MediaSvg,
   VentureSvg,
   TradingSvg,
 } from "../../helpers/icons";
@@ -16,121 +13,41 @@ import { ForecastHistogram } from "./ForecastHistogram";
 export default function Divisons() {
   const divisionsData = [
     {
-      division: "Capital",
-      revenueStreams: "Equity appreciation, cash flow from acquisitions",
-      targetMargin: "25–40% ROI",
-    },
-    {
-      division: "Trading",
+      division: "Market Making",
       revenueStreams:
-        "Market making spreads, event contract liquidity provision, proprietary trading",
+        "Market-making spreads, exchange liquidity provision, and proprietary pricing",
       targetMargin: "40–65%",
-    },
-    {
-      division: "Media",
-      revenueStreams:
-        "Course sales, ad revenue, sponsorships, affiliate marketing",
-      targetMargin: "60–80%",
-    },
-    {
-      division: "Ventures",
-      revenueStreams: "SaaS subscriptions, AI tools, productized services",
-      targetMargin: "50–70%",
     },
   ];
 
   const trends = [
     {
-      title: "$10T+ Asset Transfer",
-      description:
-        "Mass retirement of small-business owners creating unprecedented acquisition opportunities by 2030.",
-    },
-    {
       title: "Prediction Markets Explosion",
       description:
-        "Kalshi's annualized trading volume surged from $52B to $178B in six months. The sector is projected to reach $9.2B in annual revenue by 2030 as institutional capital flows in.",
+        "Kalshi's annualized volume surged from $52B to $178B in six months. The sector is projected to reach $9.2B in annual revenue by 2030 as institutional capital flows in.",
     },
     {
-      title: "Gen Z Trades Boom",
+      title: "Institutional Adoption",
       description:
-        "Large influx of Gen Z entering trades, creating a favorable employers market.",
+        "Growing exchange volumes and institutional participation are increasing demand for reliable, scalable liquidity.",
     },
     {
-      title: "Content-Driven Growth",
+      title: "Quantitative Infrastructure",
       description:
-        "Community-driven brands now outperform paid ads by 5-10x in conversion rates.",
-    },
-    {
-      title: "AI Automation",
-      description:
-        "AI-assisted deal sourcing enables lean teams to operate diversified portfolios efficiently.",
+        "Automated pricing, execution, and risk systems enable systematic coverage across thousands of event contracts.",
     },
   ];
   const divisons = [
     {
-      title: "HyperFocused Capital",
+      title: "HyperFocused Market Making",
       description:
-        "Small business acquisitions, equity stakes, and angel investments.",
-      Icon: <CapitalSvg />,
-      content: (
-        <section className="w-full">
-          <h3 className="text-lg font-Regular text-white/80 mb-6">
-            Acquisition Criteria
-            <span className="text-white/50">(for Capital Division)</span>
-          </h3>
-
-          <div className="overflow-hidden rounded-xl border border-white/10 bg-[#111111]">
-            <table className="min-w-full border-collapse text-left text-white/70">
-              <tbody>
-                <tr className="border-b border-white/10">
-                  <td className="py-4 px-6 font-medium text-white/90 w-1/3">
-                    Annual Cash Flow
-                  </td>
-                  <td className="py-4 px-6">$250K–$2M</td>
-                </tr>
-                <tr className="border-b border-white/10">
-                  <td className="py-4 px-6 font-medium text-white/90">Owner</td>
-                  <td className="py-4 px-6">Retiring or motivated to exit</td>
-                </tr>
-                <tr className="border-b border-white/10">
-                  <td className="py-4 px-6 font-medium text-white/90">
-                    Tech Adaptation
-                  </td>
-                  <td className="py-4 px-6">
-                    Minimal (ripe for systemization)
-                  </td>
-                </tr>
-                <tr className="border-b border-white/10">
-                  <td className="py-4 px-6 font-medium text-white/90">
-                    Revenue Model
-                  </td>
-                  <td className="py-4 px-6">Strong recurring revenue</td>
-                </tr>
-                <tr>
-                  <td className="py-4 px-6 font-medium text-white/90">
-                    Target Industries
-                  </td>
-                  <td className="py-4 px-6">
-                    Auto, trades, marketing, and niche B2B services with
-                    fragmented competition
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </section>
-      ),
-    },
-    {
-      title: "HyperFocused Trading",
-      description:
-        "Institutional market making and HFT operations on Kalshi — the CFTC-regulated prediction exchange commanding 89% of U.S. market share.",
+        "Market-making partnerships with Polymarket and Kalshi, plus systematic on-chain operations on Hyperliquid.",
       Icon: <TradingSvg />,
       content: (
         <section className="w-full">
           <h3 className="text-lg font-Regular text-white/80 mb-6">
-            HFT & Market Making
-            <span className="text-white/50"> (for Trading Division)</span>
+            Quantitative Market Making
+            <span className="text-white/50"> (Fund Strategy)</span>
           </h3>
 
           <div className="overflow-hidden rounded-xl border border-white/10 bg-[#111111]">
@@ -138,9 +55,11 @@ export default function Divisons() {
               <tbody>
                 <tr className="border-b border-white/10">
                   <td className="py-4 px-6 font-medium text-white/90 w-1/3">
-                    Exchange Partner
+                    Exchange Relationships
                   </td>
-                  <td className="py-4 px-6">Kalshi (CFTC-regulated DCM)</td>
+                  <td className="py-4 px-6">
+                    Polymarket and Kalshi partnerships; Hyperliquid operations
+                  </td>
                 </tr>
                 <tr className="border-b border-white/10">
                   <td className="py-4 px-6 font-medium text-white/90">
@@ -201,60 +120,6 @@ export default function Divisons() {
         </section>
       ),
     },
-    {
-      title: "HyperFocused Media",
-      description:
-        "Brand and community ecosystem built around modern entrepreneurs and high-performance achievement",
-      Icon: <MediaSvg />,
-      content: (
-        <section className="w-full">
-          <h3 className="text-lg font-Regular text-white/80 mb-6">
-            Media Growth Model
-            <span className="text-white/50"> (for Media Division)</span>
-          </h3>
-          <div className="grid gap-4">
-            {[
-              { k: "Channels", v: "YouTube, newsletter, podcast, social" },
-              { k: "Monetization", v: "Sponsorships, ads, courses, affiliates" },
-              { k: "Target Audience", v: "18–35 entrepreneurs & operators" },
-              { k: "North-Star KPIs", v: "Audience growth, LTV, CAC payback" },
-            ].map((row, i) => (
-              <div key={i} className="flex items-center justify-between border-b border-white/10 py-3">
-                <p className="text-white/90">{row.k}</p>
-                <p className="text-white/60">{row.v}</p>
-              </div>
-            ))}
-          </div>
-        </section>
-      ),
-    },
-    {
-      title: "HyperFocused Ventures",
-      description:
-        "Incubator for in-house startups in AI, SaaS, e-commerce, and automotive sectors.",
-      Icon: <VentureSvg2 />,
-      content: (
-        <section className="w-full">
-          <h3 className="text-lg font-Regular text-white/80 mb-6">
-            Venture Incubation
-            <span className="text-white/50"> (for Ventures Division)</span>
-          </h3>
-          <div className="grid gap-4">
-            {[
-              { k: "Focus", v: "B2B SaaS, AI tools, productized services" },
-              { k: "Stage", v: "0→1 incubation; spin-outs to stand-alone P&Ls" },
-              { k: "Model", v: "Shared infra (brand, ops, GTM, engineering)" },
-              { k: "Validation", v: "Pre-sell, payback < 6 months target" },
-            ].map((row, i) => (
-              <div key={i} className="flex items-center justify-between border-b border-white/10 py-3">
-                <p className="text-white/90">{row.k}</p>
-                <p className="text-white/60">{row.v}</p>
-              </div>
-            ))}
-          </div>
-        </section>
-      ),
-    },
   ];
   return (
     <div className="bg-c-black rounded-t-3xl text-white ">
@@ -265,27 +130,17 @@ export default function Divisons() {
             titleClassName="opacity-60"
             descriptionClassName="opacity-40"
             underline
-            title="Our Divisions"
-            description="Each business unit operates independently but synergizes through shared marketing, technology, and operations infrastructure."
-            tagline="MULTI-VERTICAL STRUCTURE"
+            title="Our Strategy"
+            description="Systematic liquidity provision across prediction and on-chain markets."
+            tagline="MARKET-MAKING FUND"
           />
           <section className="grid-system">
-            <div className="col-span-full grid grid-cols-4 grid-rows-4 lg:grid-rows-1 2xl:col-start-1 2xl:col-end-7 gap-6 mt-24 mx-auto">
+            <div className="col-span-full grid grid-cols-1 2xl:col-start-2 2xl:col-end-6 gap-6 mt-24 mx-auto">
               {divisons.map((division, i) => (
                 <Modal
                   key={i}
                   {...division}
-                  className={`col-span-full lg:col-span-1 grid grid-rows-[auto_1fr_auto] ${
-                    i == 0
-                      ? "lg:col-start-1 row-start-1 row-end-2 lg:row-auto"
-                      : i == 1
-                      ? "lg:col-start-2 row-start-2 row-end-3 lg:row-auto"
-                      : i == 2
-                      ? "lg:col-start-3 row-start-3 row-end-4 lg:row-auto"
-                      : i == 3
-                      ? "lg:col-start-4 row-start-4 row-end-5 lg:row-auto"
-                      : ""
-                  }`}
+                  className="grid grid-rows-[auto_1fr_auto]"
                 ></Modal>
               ))}
             </div>
@@ -305,21 +160,29 @@ export default function Divisons() {
           <div className="flex gap-2 items-center mt-8">
             <VentureSvg className="w-auto h-3" />
             <p className="text-xs  text-c-orange text-nowrap">
-              Business Acquisitions
+              Kalshi
             </p>
           </div>
           <p className="mt-1 text-2xl text-white/50 lg:max-w-[30ch]">
-            $200K–$2M EBITDA small businesses with retiring owners in fragmented
-            markets
+            Regulated event-contract liquidity across economic, political,
+            sports, crypto, and macro markets
           </p>
           <div className="flex gap-2 items-center mt-16">
             <VentureSvg className="w-auto h-3" />
             <p className="text-xs  text-c-orange text-nowrap">
-              Business Acquisitions
+              Polymarket
             </p>
           </div>
           <p className="mt-1 text-2xl text-white/50 lg:max-w-[30ch]">
-            Ambitious young adults 18–30 in tech and business
+            Cross-market liquidity and pricing opportunities across global
+            event contracts
+          </p>
+          <div className="flex gap-2 items-center mt-16">
+            <VentureSvg className="w-auto h-3" />
+            <p className="text-xs text-c-orange text-nowrap">Hyperliquid</p>
+          </div>
+          <p className="mt-1 text-2xl text-white/50 lg:max-w-[30ch]">
+            Systematic on-chain liquidity across perpetual markets
           </p>
         </div>
         {/* TABLE */}
@@ -341,14 +204,14 @@ export default function Divisons() {
         </div>
       </div>
       <TitleCard
-        title="Business Model"
+        title="Fund Model"
         titleClassName="text-white/60"
-        description="Diversified revenue streams across three core divisions with high-margin potential."
+        description="A focused market-making model built around spreads, liquidity incentives, and systematic pricing."
         descriptionClassName="text-white/40"
       />
       <section className="grid-system mt-8 lg:mt-16">
         <div className="grid col-span-full grid-cols-3 w-full lg:col-start-2 lg:col-end-6">
-          <p className=" text-sm text-white/20 font-semibold">DIVISION</p>
+          <p className=" text-sm text-white/20 font-semibold">STRATEGY</p>
           <p className="justify-self-center text-sm text-white/20 font-semibold">
             REVENUE STREAMS
           </p>
@@ -401,32 +264,32 @@ export default function Divisons() {
           {[
             {
               year: "2025",
-              revenue: "$500K",
+              profit: "$175K",
               margin: "35%",
               milestones: [
-                "Launch holdings structure",
-                "Grow media to 50K audience",
-                "Establish deal flow pipeline",
+                "Launch private fund structure",
+                "Build market-making infrastructure",
+                "Validate proprietary pricing models",
               ],
             },
             {
               year: "2026",
-              revenue: "$2.5M",
+              profit: "$1M",
               margin: "40%",
               milestones: [
-                "Acquire first 1-2 small businesses",
-                "Launch HFT trading desk on Kalshi",
-                "Scale content production",
+                "Originate market-making operations on Kalshi",
+                "Integrate Polymarket infrastructure",
+                "Launch Hyperliquid operations",
               ],
             },
             {
               year: "2027",
-              revenue: "$7M+",
+              profit: "$2M",
               margin: "45%",
               milestones: [
-                "Build full internal M&A team",
-                "Scale market making operations",
-                "Multi-sector portfolio",
+                "Scale cross-exchange liquidity",
+                "Expand event-contract coverage",
+                "Reach $2M year-over-year profit target",
               ],
             },
           ].map((item, i) => (
@@ -444,10 +307,10 @@ export default function Divisons() {
               </div>
               <div className="mb-12">
                 <p className="text-3xl md:text-4xl text-[rgba(255,255,255,0.6)] mb-1">
-                  {item.revenue}
+                  {item.profit}
                 </p>
                 <p className="text-sm text-[rgba(255,255,255,0.4)]">
-                  Revenue Target
+                  Year-Over-Year Profit Target
                 </p>
               </div>
               <div>
