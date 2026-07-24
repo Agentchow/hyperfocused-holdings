@@ -41,7 +41,7 @@ export default function Divisons() {
     {
       title: "HyperFocused Market Making",
       description:
-        "Market-making partnerships with Polymarket and Kalshi, plus systematic on-chain operations on Hyperliquid.",
+        "Market-making partnerships with Polymarket and Kalshi, as well as liquidity operations across other prediction markets.",
       Icon: <TradingSvg />,
       content: (
         <section className="w-full">

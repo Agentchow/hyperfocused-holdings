@@ -61,7 +61,7 @@ export default function Hero() {
             <p className="md:col-start-2 md:col-end-5 xl:col-end-4 col-span-full md:text-lg lg:text-2xl 2xl:text-3xl max-w-[40ch] mr-auto md:mt-16">
               A private fund focused on systematic market making. We provide
               origination and liquidity through partnerships with Polymarket
-              and Kalshi, with additional operations on Hyperliquid.
+              and Kalshi, as well as operations across other prediction markets.
             </p>
           </div>
         </div>

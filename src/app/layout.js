@@ -11,11 +11,11 @@ const poppins = Poppins({
 export const metadata = {
   title: "HyperFocused",
   description:
-    "A private market-making fund providing origination and liquidity through partnerships with Polymarket and Kalshi, with operations on Hyperliquid.",
+    "A private market-making fund providing origination and liquidity through partnerships with Polymarket and Kalshi, as well as other prediction markets.",
   openGraph: {
     title: "HyperFocused Holdings",
     description:
-      "A private market-making fund providing origination and liquidity through partnerships with Polymarket and Kalshi, with operations on Hyperliquid.",
+      "A private market-making fund providing origination and liquidity through partnerships with Polymarket and Kalshi, as well as other prediction markets.",
     url: "https://www.hyperfocusedholdings.com/",
     siteName: "HyperFocused Holdings",
     images: [

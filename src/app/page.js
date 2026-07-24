@@ -9,7 +9,7 @@ import Image from "next/image";
 export const metadata = {
   title: "HyperFocused Holdings | Private Fund & Market Making",
   description:
-    "A private market-making fund partnered with Polymarket and Kalshi, with additional operations on Hyperliquid.",
+    "A private market-making fund partnered with Polymarket and Kalshi, as well as other prediction markets.",
   openGraph: {
     title: "HyperFocused Holdings | Private Fund & Market Making",
     description:

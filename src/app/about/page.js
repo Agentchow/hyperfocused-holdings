@@ -32,7 +32,7 @@ export default function AboutPage() {
     {
       year: "2026",
       title: "Exchange Partnerships",
-      description: "Market-making partnerships with Polymarket and Kalshi, plus on-chain operations on Hyperliquid, supported by proprietary pricing and real-time risk controls.",
+      description: "Market-making partnerships with Polymarket and Kalshi, as well as other prediction markets, supported by proprietary pricing and real-time risk controls.",
     },
     {
       year: "2027",

@@ -44,7 +44,7 @@ export default function ServicesPage() {
     {
       name: "HyperFocused Market Making",
       focus: "Multi-Venue Liquidity",
-      description: "Market-making partnerships with Polymarket and Kalshi across event contracts, complemented by on-chain operations on Hyperliquid.",
+      description: "Market-making partnerships with Polymarket and Kalshi, as well as liquidity operations across other prediction markets.",
     },
   ];
 
@@ -109,7 +109,7 @@ export default function ServicesPage() {
         <TitleCard
           title="Exchange Partnerships"
           titleClassName="text-white/60"
-          description="Providing origination and liquidity through partnerships with Polymarket and Kalshi, with additional operations on Hyperliquid."
+          description="Providing origination and liquidity through partnerships with Polymarket and Kalshi, as well as other prediction markets."
           descriptionClassName="text-white/40"
           tagline="PARTNER ECOSYSTEM"
         />
