@@ -104,7 +104,7 @@ export default function Divisons() {
               { k: "Platform Valuation", v: "$22B (Series F, May 2026)" },
               { k: "Annualized Volume", v: "$178B (3× growth in 6 months)" },
               { k: "2025 Volume Growth", v: "1,100%+ YoY ($23.8B notional)" },
-              { k: "U.S. Market Share", v: "89% of regulated prediction market" },
+              { k: "U.S. Activity Share", v: "Over 90% (reported May 2026)" },
               { k: "Institutional Volume", v: "800% increase in 6 months" },
               { k: "Revenue Run Rate", v: "$1.5B+ annualized (2026)" },
             ].map((row, i) => (

@@ -85,7 +85,7 @@ export default function AboutPage() {
               { label: "Deployable Capital", value: "$3M" },
               { label: "Core Strategy", value: "Market Making" },
               { label: "Net IRR (Fund I)", value: "19.4%" },
-              { label: "Kalshi Market Share", value: "89%" },
+              { label: "Annual Volume Target", value: "$200M" },
             ].map((s, i) => (
               <div key={i} className="rounded-2xl border border-white/10 bg-[#0f0f0f] p-6">
                 <div className="text-2xl md:text-4xl text-white font-semibold">{s.value}</div>
