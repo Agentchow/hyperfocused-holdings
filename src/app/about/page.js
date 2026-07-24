@@ -34,7 +34,7 @@ export default function AboutPage() {
   const values = [
     {
       title: "Innovation First",
-      description: "We leverage cutting-edge AI, algorithmic market making, and automation to eliminate inefficiencies and maximize value.",
+      description: "We leverage proprietary models, simulations, and automation to identify and execute market edges.",
     },
     {
       title: "Quantitative Edge",
@@ -208,9 +208,7 @@ export default function AboutPage() {
                   <div className="flex flex-wrap gap-4">
                     {[
                       "Visionary thinking",
-                      "Algorithmic market making",
                       "Scaling systems",
-                      "Risk appetite",
                       "Edge finding",
                       "Origination",
                     ].map((strength, i) => (
